@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+}
+.tool-bar{
+    height: 15vh;
+    display: flex;
+}
+.tool{
+    height:80%;
+}
+.tool>img{
+height: 100%;
+}
+.stickypad{
+    position: absolute;
+    height:10rem;
+    width:6rem;
+    /* background-color: yellow; */
+    left:40vw;
+    top:35vh;
+}
+.nav-bar{
+    height: 20%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.close,.minimize{
+    height:80%;
+    width:18%;
+    border-radius: 50%;
+    background-color: coral;
+    margin-right:5px;
+}
+.minimize{
+    background:lightgreen;
+}
+.text-area{
+    height: 80%;
+    width:100%;
+    /* background-color: brown; */
+}
+textarea{
+    height: 100%;
+    width:100%;
+    border:none;
+    background-color: bisque;
+}
+
+
